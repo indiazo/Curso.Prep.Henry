@@ -256,6 +256,7 @@ function esVocal(letra) {
 
   if (letra.length != 1) return "Dato incorrecto";
   if (["a", "e", "i", "o", "u"].includes(letra)) return "Es vocal";
+  
 }
 
 // No modificar nada debajo de esta línea
